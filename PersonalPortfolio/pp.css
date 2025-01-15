@@ -1,0 +1,185 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.container{
+    display:flex;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+}
+
+.sidebar{
+    background-color: rgb(204, 204, 204);
+    height:100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding:30px;
+}
+
+.sidebar nav li{
+    list-style-type: none;
+    font-size:20px;
+    padding:13px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width:90vw;
+}
+
+.info-container{
+    width:80vw;
+    height:60vh;
+    margin:147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dev-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size:70px;
+}
+
+.name{
+    font-size:60px;
+    font-weight: bold;
+}
+
+.about{
+    font-size:35px;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    font-size:15px;
+    padding:9px 14px;
+    border-radius:22px;
+    font-family:inherit;
+    color:white;
+    background-color:dodgerblue;
+    font-weight:bold;
+    margin:0 3px;
+    cursor:pointer;
+}
+
+.buttons button:hover{
+    color:dodgerblue;
+    background-color:white;
+}
+
+.dev-pic img{
+    height:60vh;
+}
+
+.contact-form{
+    padding:0px 34px;
+    font-family:"Cormorant Garamond", serif;
+    padding-top: 144px;
+}
+
+.contact-form h2{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:12px 0;
+}
+
+form{
+    font-size: 22px;
+}
+
+.contact-form form div{
+    padding:13px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form div input{
+    width:26vw;
+    border-radius: 5px;
+    margin:6px 0 0 0 ;
+    padding:3px;
+}
+
+#emailHelp{
+    font-size:15px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding:3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width:15px;
+    margin:3px 0;
+}
+
+.contact-form button{
+    font-family: inherit;
+    font-size:18px;
+    border-radius:18px;
+    color:white;
+    background-color:dodgerblue;
+    margin:0 3px;
+    cursor:pointer;
+    padding:5px;
+}
+
+.intro-container{
+    padding:10px;
+    margin:10px;
+}
+
+.intro-container h2{
+    padding: 5px 0;
+    font-weight: 800;
+}
+
+.skill-container{
+    padding: 12px;
+}
+
+.skill-item{
+    display: flex;
+    align-items: center;
+}
+
+.skill-item .skill{
+    background-color: blue;
+    width:200px;
+    height:6px;
+}
+
+.hamburger{
+    position:absolute;
+    cursor: pointer;
+    top: 10px;
+    left:10px;
+}
+
+.cross{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.sidebar-go{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
